@@ -22,23 +22,13 @@
   </style>
 
   <style>
-    #titulosecundario {
-      color: blue;
-      font-size: 40px;
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-  </style>
-
-  <style>
     #tituloterciario {
       color: black;
       font-size: 30px;
       font-weight: lighter;
       text-align: center;
       margin-top: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 20px
     }
   </style>
 
@@ -79,37 +69,22 @@
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
 
-        <div>
-          <a ref="carrito.html" class="btn btn-warning position-relative btnav">
-            <button type="button" class="btn btn-warning position-relative">
-              <img src="./img/iconocarrito.png" alt="Icono de un carrito de compras" width="24">
-              <span id="carrito"
-                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
-            </button>
-          </a>
-        </div>
-
       </div>
 
     </nav>
 
   </section>
 
-  <h1 id="tituloprincipal">MATERIALES SA</h1>
-
+  <h1 id="tituloprincipal">NUESTROS CLIENTES</h1>
+  <br><br>
   <main>
+
+    <h2 id="tituloterciario">¡Tenemos el orgullo de presentar a algunos de nuestros clientes!</h2>
 
     <section>
       <div class="container my-5 carrito">
-        <div id="productos" class="row"></div>
+        <div id="listaclientes" class="row"></div>
       </div>
-    </section>
-
-    <section>
-      <br><br>
-      <h2 id="titulosecundario">¡Seleccione nuestros productos y acceda a importantes beneficios!</h2>
-      <h3 id="tituloterciario">Puede ver los productos seleccionados en la sección CARRITO</h3>
-      <br><br>
     </section>
 
   </main>
@@ -128,10 +103,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-  <script src="./carpeta.js/productos.js"></script>
-  <script src="./carpeta.js/carrito.js"></script>
-  <script src="./carpeta.js/index.js"></script>
-
+  <script src="./carpeta.js/clientes.js"></script>
 
 </body>
 

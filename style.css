@@ -3,13 +3,6 @@
     padding:0;
 }
 
-.main-box{
-   display: flex;
-   flex-direction: row;
-   margin: 20px;
-   gap: 50px;
-}
-
 .card{
    width: 250px;
    margin-top: 50px;
@@ -34,4 +27,49 @@ h3{
 
 #formulario{
    margin-left: 20px;
+}
+
+.btnav{
+   margin-left: 8px;
+}
+
+.piepag{
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   height: 70px;
+   margin-top: 20px;
+}
+
+.btnpie{
+   margin-right: 10px;
+}
+
+.formdesign1{
+   margin-right: 8px;
+}
+
+.formdesign2{
+   margin-right: 7px;
+}
+
+.formdesign3{
+   margin-right: 16px;
+}
+
+.formdesign4{
+   margin-right: 14px;
+}
+
+.emotifeliz{
+   width: 300px;
+   height: 200px;
+   margin-left: 520px;
+   margin-top: 50px;
+}
+
+.emotitriste{
+   width: 100px;
+   height: 100px;
+   margin-left: 200px;
 }
